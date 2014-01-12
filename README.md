@@ -23,7 +23,7 @@
     app.use(express.session({
       secret: 's3333cr3t!',
       store: new ElasticsearchStore({
-        hosts: [ '192.168.26.129:9200' ] // Change this to your memcache server(s). See Options for additional info.
+        hosts: [ '192.168.26.129:9200' ]
       })
     }));
 
