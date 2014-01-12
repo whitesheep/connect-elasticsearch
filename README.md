@@ -1,4 +1,4 @@
-# connect-memcached
+# connect-elasticsearch
 
   Elasticsearch session store, using [elasticsearch-js](https://github.com/elasticsearch/elasticsearch-js) for communication with db server.
 
